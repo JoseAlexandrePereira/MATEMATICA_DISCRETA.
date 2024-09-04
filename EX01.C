@@ -26,7 +26,7 @@ int main() {
     conjuncao = p && q;
     disjuncao_exclusiva = (p || q) && !(p && q);
     condicional = !p || q;
-    bicondicional = (p && q) || (!p && !q);
+    bicondicional = ((!p) || q) && ((!q) || p);
 
     printf("\npvq = %d\n", disjuncao_inclusiva);
     printf("p^q = %d\n", conjuncao);
