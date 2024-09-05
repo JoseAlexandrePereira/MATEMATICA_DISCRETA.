@@ -1,3 +1,8 @@
+
+/*  Utilizado o mesmo exercício 1, porém, nessa resolução utilizei função para cada condição matemática da lógica proposicional, além de retornar a resposta 1 ou 0, também retorna se ela é verdade ou falso.
+ Também criei uma estrutura de repetição para criar tabelas verdades, no intuíto do usuário tirar a prova.*/
+
+
 #include <stdio.h>
 
 //Funções:
